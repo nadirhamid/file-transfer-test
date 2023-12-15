@@ -46,4 +46,6 @@ The module consists of two main components: `server.py` and `client.py`. These c
 
 - This is a basic implementation for educational purposes and doesn't cover all security aspects or error handling for a production environment.
 
-- Consider enhancing the codebase w
+- Consider enhancing the codebase with more robust error handling, security measures, and additional features for a real-world application.
+
+- Please ensure that you have appropriate permissions for sending and receiving files in the specified directories.
