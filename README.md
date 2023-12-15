@@ -17,7 +17,7 @@ The module consists of two main components: `server.py` and `client.py`. These c
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Millennium-Group/file-transfer-test.git
+    git clone https://github.com/nadirhamid/file-transfer-test.git
     ```
 
 2. Install the required library:
