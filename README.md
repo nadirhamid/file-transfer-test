@@ -42,8 +42,24 @@ The module consists of two main components: `server.py` and `client.py`. These c
 
     - After running the client, the server should display a message indicating the successful receipt of the file (`received_file.txt`).
 
+## Design Decisions
+
+- **Encryption Mechanism**: AES encryption was chosen due to its security and speed for this demonstration. The `cryptography` library provides a simple interface for implementing AES encryption.
+
+- **Socket Communication**: Python sockets were utilized for network communication between the client and server. This offers a straightforward way to establish connections and transfer data.
+
+- **File Handling**: The module supports basic file transfer, handling both small and large files efficiently.
+
+## Challenges Faced
+
+- **Memory Management**: Ensuring secure memory allocation and deallocation practices while handling encryption keys and sensitive data was challenging. The `cryptography` library helped manage encryption keys securely.
+
+- **Error Handling**: Robust error handling for potential network issues and security concerns required thorough consideration. The current implementation lacks comprehensive error management for various scenarios.
+
 ## Note
 
-- This is a basic implementation for educational purposes and doesn't cover all security aspects or error handling for a production environment.
+- This is a basic implementation for a test assessment and doesn't cover all security aspects or error handling for a production environment.
 
-- Consider enhancing the codebase w
+- Consider enhancing the codebase with more robust error handling, security measures, and additional features for a real-world application.
+
+- Please ensure that you have appropriate permissions for sending and receiving files in the specified directories.
